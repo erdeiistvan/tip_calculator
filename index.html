@@ -1,0 +1,53 @@
+<!DOCTYPE=html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Tip Calculator</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="wrapper">
+
+    <div id="content">
+    
+    <h1 id="header">Tip Calculator</h1>
+
+    <h2 class="header-input">How much was your bill?</h2>
+
+    <div>
+        <img src="Double-barred_dollar_sign.svg.png" id="dollar-sign">
+        <input id="bill-amount" type="number">
+    </div>    
+
+    <h2 class="header-input">How was your service?</h2>
+
+    <div>
+        <select id="service">
+            <option value="">Please choose an option!</option>
+            <option id="awesome" value="0.3">Awesome - 30%</option>
+            <option id="good" value="0.2">Good - 20%</option>
+            <option id="average" value="0.1">Average - 10%</option>
+            <option id="disappointing" value="0">Disappointing - No tips</option>    
+        </select>
+    </div>    
+
+    <h2 class="header-input">How many people are sharing the bill?</h2>
+
+    <div>
+        <input id="number-of-people" type="number">
+        <p id="people">people</p>
+    </div>
+    
+    <div >
+        <button id="calc-btn">Calculate!</button>
+        <div id="tip-amount"></div>
+    </div>
+
+    </div>
+
+</div>
+<script src="script.js"></script>
+</body>
+</html>
+

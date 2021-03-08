@@ -1,0 +1,65 @@
+body {
+    background-color: #FF2D00;
+}
+
+#content {
+    padding-bottom: 100px;
+}
+
+#wrapper {
+    background-color: #FFFFFF;
+    width: 500px;
+    border: 2px solid #FF2D00;
+    border-radius: 20px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#header {
+    background-color: #852112;
+    color: #FFFFFF;
+    margin: 0px;
+    font-family: sans-serif;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.header-input {
+    font-family: sans-serif;
+    font-size: 25px;
+}
+#dollar-sign {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+}
+#bill-amount, #service, #number-of-people {
+    border-radius: 5px;
+}
+
+#bill-amount:focus, #service:focus, #number-of-people:focus {
+    border: 2px solid black;
+}
+
+#people {
+    display: inline-block;
+    font-family: sans-serif;
+    
+}
+#calc-btn {
+    background-color: #852112;
+    color: #FFFFFF;
+    font-size: 30px;
+    text-transform: uppercase;
+    border-radius: 20px;
+    margin: 20px auto;
+    
+}
+#calc-btn:hover {
+    background-color: #FFFFFF;
+    color: #852112;
+}
+#tip-amount {
+    font-family: sans-serif;
+    font-size: 20px;
+    color: #852112;
+}
